@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitap Satış Mağazası</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> BOOKEVER </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="burada arama yapabilirsiniz..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">EV</a>
+            <a href="#featured">ÖNE ÇIKAN KİTAPLAR</a>
+            <a href="#arrivals">YENİ GELENLER</a>
+            <a href="#reviews">YORUMLAR</a>
+            <a href="#blogs">BLOG</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>kayıt ol</h3>
+        <span>kullanıcı adı</span>
+        <input type="email" name="" class="box" placeholder="emailinizi giriniz" id="">
+        <span>şifre</span>
+        <input type="password" name="" class="box" placeholder="şifrenizi giriniz" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> beni hatırla</label>
+        </div>
+        <input type="submit" value="KAYIT OL" class="btn">
+        <p>şifrenizi mi unuttunuz <a href="#">buraya tıklayınız</a></p>
+        <p>hesabınız yok mu <a href="#">bir tane oluşturunuz</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>%75'e VARAN İNDİRİMLER</h3>
+            <p>Kitap okumak, kelime dağarcığının gelişmesini sağlar. Bireyi psikolojik ve çevresel olarak stresten uzaklaştırır. Zihnin dinlenmesini sağlar. Kişinin yaratıcılığını arttırır.</p>
+            <a href="#" class="btn">ŞİMDİ SATIN AL</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/1984.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/hayvan-ciftligi.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/dirilis.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/dönüsüm.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/suc_ve_ceza.jpg" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/icimizdeki-seytan.jpg" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- icons section starts  -->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-shipping-fast"></i>
+        <div class="content">
+            <h3>ücretsiz kargo</h3>
+            <p>$20'ın üzerindeki siparişler için</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>güvenli ödeme</h3>
+            <p>100 güvenli ödeme</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>kolay iade</h3>
+            <p>10 gün içinde iade</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 destek</h3>
+            <p>bizi istediğiniz zaman arayabilirsiniz</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- icons section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>ÖNE ÇIKAN KİTAPLAR</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/1984.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/hayvan-ciftligi.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/dirilis.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/dönüsüm.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/hayvan-ciftligi.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/icimizdeki-seytan.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/kuyucakli_yusuf.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/tanri_misafiri.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/cezmi.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/olu_canlar.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ÖNE ÇIKAN KİTAPLAR</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <a href="#" class="btn">sepete ekle</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>en son güncellemeler için abone olunuz</h3>
+        <input type="email" name="" placeholder="emailinizi giriniz" id="" class="box">
+        <input type="submit" value="abone olunuz" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>Yeni Çıkan Kitaplar</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/1984.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/hayvan-ciftligi.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/dirilis.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/dönüsüm.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/suc_ve_ceza.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/icimizdeki-seytan.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/kuyucakli_yusuf.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cezmi.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/tanri_misafiri.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/olu_canlar.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yeni Çıkan Kitaplar</h3>
+                    <div class="price">$5.99 <span>$10.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>GÜNÜN SATIŞ TEKLİFİ</h3>
+        <h1>%50'ye Varan İndirimler...</h1>
+        <p> Friedrich Nietzsche tarafından kaleme alınmış bir kitaptır (1883–1885). Kitabı belirli bir kategori içerisinde tanımlamak genelde zor olmuştur: Bir edebiyat eseri ve aynı zamanda felsefi bir çalışmadır. Nietzsche kendisi kitabı "yazılmış en derin" eser olarak tanımlamıştır. Eser, birçok farklı konu ve tarz barındırmaktadır. Nietzsche'nin felsefî görüşleri açısından önemli bir yer tutan kitap, birçok eleştiriye maruz kalmıştır.</p>
+        <a href="#" class="btn">ŞİMDİ SATIN AL</a>
+    </div>
+
+    <div class="image">
+        <img src="image/zerdust.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>MÜŞTERİ YORUMLARI</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <h3>Ahmet M.YILMAZ</h3>
+                <p>Kitapsız büyüyen çocuk,susuz büyüyen ağaca benzer.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <h3>Süheyla M.KORASIZ</h3>
+                <p>Geçmiş bir yaşamı geri getiremezsin; ama satın aldığın bir kitapla dünyanın en bilge kişilerinin bir ömür boyu kazandıkları birikimlerini elde edebilirsin.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <h3>Ekrem S.TAKILMAZ</h3>
+                <p>Bilge kişiler, hayatın dertlerine çareyi kitaplardan bulur.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <h3>Şule T.HAKSIZ</h3>
+                <p>Bir insana okuma aşkı ve onu tatmin edecek kitap verin; emin olun ki bu adam mutlu olacaktır. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-5.png" alt="">
+                <h3>Mükremin G.GAFİL</h3>
+                <p>Kitaplar anlamaya ve anlaşmaya yararlar, uzak mı uzak yerlerdeki insanlar için bile ortak bir evren yaratırlar.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-6.png" alt="">
+                <h3>İlayda M.KATAN</h3>
+                <p>Bütün boş zamanınızı gazeteye bağlamayın, ona vereceğiniz zamanın yarısını ayırarak size yeni bir şeyler öğretecek kitapları okuyun.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>BİZİM BLOĞUMUZ</span> </h1>
+
+    <div class="swiper blogs-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>kelime dağarcığını geliştirmek</h3>
+                    <p>Kitap okumanın en güzel yanlarından biri kelime dağarcığımızı geliştirmektir. Farklı kategorilerden birçok kitap okuyarak edineceğimiz kitap okuma alışkanlığı sayesinde her kitaptan daha önce duymadığımız kelimeleri duyma ve tanıma fırsatı yakalarız.</p>
+                    <a href="#" class="btn">DEVAMINI OKU</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>psikolojik ve çevresel olarak stresten uzaklaşmak</h3>
+                    <p>Günlük yaşantıda, eğitim hayatımızda ya da iş hayatında strese maruz kalmak çoğu kez kaçınılmazdır. Kitap okumak için rahat edeceğimiz alanı bulduğumuzda biraz olsun kendimizi  strese maruz kaldığımız ortamdan uzaklaştırmış oluruz. Kitap okuduğumuz sırada, kitabın içeriğine bağlı olarak değişecek olay örgüsü ya da konu dikkatimizi kendine çekerek stres faktörlerini düşünmekten alıkoyacaktır.</p>
+                    <a href="#" class="btn">DEVAMINI OKU</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Zihnin dinlenmesini sağlamak</h3>
+                    <p>İş ve eğitim hayatımızdaki sorumlulukları yerine getirdikten ya da zihin yorucu bir aktiviteyi tamamladıktan sonra kitap okumak bireyleri, hem yoruldukları ortamdan uzaklaştıracak hem de zihnimizin odağını değiştirerek dinlenme moduna geçişi sağlayacaktır.</p>
+                    <a href="#" class="btn">DEVAMINI OKU</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kişinin yaratıcılığını arttırmak</h3>
+                    <p>Kitaplar, içeriğindeki olay örgüsü ve sunduğu bilgiler sayesinde kişilerin yaratıcılık seviyesini arttırır. Kitap okuma alışkanlığı olan bireyler, okuduğu her kitaptan yeni fikirler edinerek daha yaratıcı düşüncelere sevk edilirler.</p>
+                    <a href="#" class="btn">DEVAMINI OKU</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="image">
+                    <img src="image/blog-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bireyin kendini daha iyi ifade etmesini sağlamak</h3>
+                    <p>Kitap okumak, kişinin hitabet ve etkili iletişim becerilerinin de gelişmesini sağlar. Birey kitap okumanın hitabete olan etkisi sayesinde topluluğa karşı konuşmalar yaparken daha özgüvenli şekilde kendini ifade edebilir.</p>
+                    <a href="#" class="btn">DEVAMINI OKU</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Şubelerimiz</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> İstanbul </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Ankara </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> İzmir </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Antalya </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Bursa </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Adana </a>
+        </div>
+
+        <div class="box">
+            <h3>Hızlı Bağlantılar</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Ev </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Öne Çıkan Kitaplar </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Yeni Gelenler </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Yorumlar </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Blog </a>
+        </div>
+
+        <div class="box">
+            <h3>Extra Bağlantılar</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> hesap bilgisi </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> sipariş edilen ürünler </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Gizlilik Politikası </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Ödeme şekli </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> hizmetlerimiz </a>
+        </div>
+
+        <div class="box">
+            <h3>iletişim bilgileri</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +555-000-789 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +1111-222-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> bookever000@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+
+    <div class="credit"> <span>TANER AKDOĞAN</span> </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
